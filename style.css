@@ -1,0 +1,59 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font: 200px;
+}
+.c{
+    color: tomato;
+}
+.flex{
+    display: flex;
+    margin-bottom:150Spx;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(yellow,red);
+    padding: 15px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.img1{
+    width: 40%;
+    padding: 2%;
+
+}
+.banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+#img2{
+    width: 50%;
+    padding: 2%;
+}
+.under-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.item{
+width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+padding: 10px;
+box-shadow: 10px 10px 40px gray;
+}
+#border{
+    border-left: 7px solid;
+    border-image: linear- gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#full-stake{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,tomato);
+    border-image-slice: 1;
+}
+   footer{text-align: center;
+}
